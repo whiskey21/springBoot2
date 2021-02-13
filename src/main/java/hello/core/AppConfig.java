@@ -34,5 +34,6 @@ public class AppConfig {
     public DiscountPolicy getDiscountPolicy() {
         return new RateDiscountPolicy();
     }
+    // class return 값 DiscountPolicy로 설정하는 이유 : DI의 용이성 때문
 
 }
